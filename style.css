@@ -1,0 +1,129 @@
+Body {
+    background-color: aqua;
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+
+Header {
+    Background-color: #1c4a25;
+    Color: white;
+    Padding: 20px;
+    Text-align: center;
+}
+
+Nav ul {
+    List-style: none;
+    Padding: 0;
+    Margin-top: 10px;
+    Display: flex;
+    Justify-content: center;
+}
+
+Nav ul li {
+    Margin: 0 15px;
+}
+
+Nav ul li a {
+    Color: white;
+    Text-decoration: none;
+}
+
+.hero {
+    Position: relative;
+    Text-align: center;
+    Color: white;
+}
+
+.hero img {
+    Width: 50%;
+    Height: 150px;
+    Object-fit: cover;
+}
+
+.hero-text {
+    Position: absolute;
+    Top: 40%;
+    Left: 50%;
+    Transform: translate(-50%, -50%);
+}
+
+.rooms {
+    Padding: 40px;
+    Background-color: #f4f4f4;
+    Text-align: center;
+}
+
+.room {
+    Margin: 20px;
+    Display: inline-block;
+    Width: 300px;
+}
+
+.room img {
+    Width: 60%;
+    Height: 160px;
+    Object-fit: cover;
+}
+
+Footer {
+    Background-color: #1c2e4a;
+    Color: white;
+    Text-align: center;
+    Padding: 20px;
+}
+booking, .gallery, .location {
+    Padding: 40px;
+    Text-align: center;
+}
+
+.booking form {
+    Max-width: 500px;
+    Margin: 0 auto;
+    Display: grid;
+    Gap: 15px;
+}
+
+.booking input, .booking select, .booking button {
+    Padding: 10px;
+    Font-size: 16px;
+    Width: 100%;
+}
+
+.booking button {
+    Background-color: #1c2e4a;
+    Color: white;
+    Border: none;
+    Cursor: pointer;
+}
+
+.gallery-images {
+    Display: flex;
+    Justify-content: center;
+    Flex-wrap: wrap;
+    Gap: 10px;
+}
+
+.gallery-images img {
+    Width: 150px;
+    Height: 100px;
+    Object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .room {
+        Width: 90%;
+    }
+
+    .gallery-images {
+        Flex-direction: column;
+        Align-items: center;
+    }
+}
+
+
+
+
+
